@@ -156,6 +156,7 @@
 		7ED6C9C61B1C16BC00FE8090 /* concatenate_swift_files.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = concatenate_swift_files.sh; sourceTree = "<group>"; };
 		7ED6C9C91B1C16EE00FE8090 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
 		7EE5B9A01E32F6D400AA56FF /* KeychainSwiftCBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftCBridge.swift; sourceTree = "<group>"; };
+		A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		C7E1DE4A1E4B7C9F003818F6 /* ConcurrencyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyTests.swift; sourceTree = "<group>"; };
 		F271A1AD23BE071800FCC3B9 /* AllKeysTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllKeysTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -307,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				7ED6C9701B1C118F00FE8090 /* Info.plist */,
+				A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -862,6 +864,7 @@
 /* Begin XCBuildConfiguration section */
 		232B4C801BC29950001F2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -887,6 +890,7 @@
 		};
 		232B4C811BC29950001F2B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -912,6 +916,7 @@
 		};
 		232B4C901BC29984001F2B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -936,6 +941,7 @@
 		};
 		232B4C911BC29984001F2B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -960,6 +966,7 @@
 		};
 		23E785661BDA410C00B7564A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -984,6 +991,7 @@
 		};
 		23E785671BDA410C00B7564A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1228,6 +1236,7 @@
 		};
 		7ED6C9831B1C118F00FE8090 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1247,6 +1256,7 @@
 		};
 		7ED6C9841B1C118F00FE8090 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7124CC8B2F00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
